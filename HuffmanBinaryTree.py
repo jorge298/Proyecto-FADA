@@ -5,10 +5,10 @@ ejemplo
 """
 
 class HuffmanBinaryTree:
-    def __init__(self, key, left, right) -> None:
-        self.key = key
-        self.left = left
-        self.right = right
+    def __init__(self):
+        self.key = None
+        self.left = None
+        self.right = None
 
     def getNumberKey(self):
         if isinstance(self.key, int):
