@@ -5,10 +5,10 @@ ejemplo
 """
 
 class HuffmanCoding:
-    def __init__(self) -> None:
+    def __init__(self):
         pass
 
-    def encode(cadena):
+    def encode(self, cadena):
         frecuencia = {}
 
         for i in cadena:
@@ -18,4 +18,11 @@ class HuffmanCoding:
 
         return frecuencia
 
-    print(encode("mi pasion es programar"))
+    def getTree(self):
+        pass
+
+    def getTable(self):
+        pass
+
+    def Summary(self):
+        pass
